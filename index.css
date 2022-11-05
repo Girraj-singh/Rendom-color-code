@@ -1,0 +1,33 @@
+.main{
+     background-color: aquamarine;
+     height: 210px;
+     width: 440px;
+     border: 2px solid rgb(152, 151, 105);
+     border-radius: 10px;
+}
+.center{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    
+    place-content: center;
+    text-align: center;
+   
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    background-color: rgb(238, 162, 162);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 6px 1px rgb(90, 49, 49);
+}
+
+button:hover{
+    scale: 1.2;
+    box-shadow: 0px 0px 9px 2px rgb(90, 49, 49);
+}
+#color{
+    transition: 1s;
+}
